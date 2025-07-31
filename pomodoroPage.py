@@ -12,7 +12,6 @@ def init(shared_root, shared_page1):
     root = shared_root
     page1 = shared_page1
 
-    # -------- Second Page --------
     page2 = tk.Frame(root)
     page2.grid(row=0, column=0, sticky="nsew")
 
